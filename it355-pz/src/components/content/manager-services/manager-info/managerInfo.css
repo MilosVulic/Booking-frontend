@@ -1,0 +1,37 @@
+.manager-info {
+    margin-top: 120px;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+.panel-body {
+    margin-top: 70px;
+}
+
+.idtabela {
+    display: none;
+}
+
+.iddata {
+    display: none;
+}
+
+.dugme {
+    margin-top: 8px;
+}
+
+h4 {
+    margin-top: 50px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    margin-top: -10px;
+}

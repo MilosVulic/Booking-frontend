@@ -1,0 +1,36 @@
+h3 {
+    padding-bottom: 20px;
+}
+
+#customer-info-edit .container #customer-info-edit-row #customer-info-edit-column #customer-info-edit-box {
+    min-width: 200px;
+    max-height: 950px;
+    border: 1px solid rgb(52, 58, 64);
+    background-color: rgb(52, 58, 64);
+    color: white;
+    margin-top: 120px;
+}
+
+#customer-info-edit .container #customer-info-edit-row #customer-info-edit-column #customer-info-edit-box #customer-info-edit-form {
+    padding: 10px;
+}
+
+@media screen and (max-width: 766px) {
+    .dugme {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .dugme {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.error{
+    text-align: center;
+    color: red;
+    margin-top: -10px;
+}

@@ -1,0 +1,18 @@
+.navbar-toggler span {
+  display: block;
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.navbar {
+  border-bottom: #80ffd4 4px solid;
+}
+
+nav li.router-link-active, nav li.router-link-exact-active {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+#background-slika-home {
+    min-height: 500px;
+    background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url('../../../assets/background-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.horizont {
+    overflow-x: hidden;
+}

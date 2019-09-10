@@ -1,0 +1,153 @@
+#background-slika {
+    min-height: 500px;
+    background: linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)), url('../../../assets/background-about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    margin-top: 100px;
+}
+
+.underHeading {
+    margin-top: 40px;
+}
+
+.explanation {
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+    min-width: 150px;
+}
+
+.heading, .underHeading, .explanation {
+    text-align: center;
+}
+
+.avatar{
+    border-radius: 50%;
+    border:4px solid #80ffd4;
+    padding: 2px;
+}
+
+.find {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mapica {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.container-fluid {
+    margin-top: 80px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-row {
+    margin-top: 10px;
+    border: 0px;
+    text-align: center;
+}
+
+.info-text {
+    margin-top: 25px;
+}
+
+.card {
+    border-color : transparent !important;
+}
+
+.card-body {
+    border: 2px solid #80ffd4;
+}
+
+.box {
+    padding: 30px;
+}
+
+.secondText {
+    text-align: center;
+}
+
+.generalni-div {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1300px) {
+    .explanation {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mapica {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mapica {
+        width: 300px;
+    }
+}
+
+.section-title {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 0 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-title a {
+    color: #000000;
+}
+
+.section-title span {
+    display: inline-block;
+    position: relative;
+}
+
+.section-title span:before, .section-title span:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: .53em;
+    width: 400%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.section-title span:before {
+    right: 100%;
+    margin-right: 45px;
+}
+
+.section-title span:after {
+    left: 100%;
+    margin-left: 45px;
+}
+
+.slicka {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    min-height: 20px;
+    max-width: 100%;
+    height: auto;
+}

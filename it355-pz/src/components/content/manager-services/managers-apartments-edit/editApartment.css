@@ -1,0 +1,29 @@
+h3 {
+    padding-bottom: 20px;
+}
+
+#edit-apartment .container #edit-apartment-row #edit-apartment-column #edit-apartment-box {
+    min-width: 200px;
+    max-height: 950px;
+    border: 1px solid rgb(49, 59, 66);
+    background-color: rgb(49, 59, 66);
+    margin-top: 120px;
+}
+
+#edit-apartment .container #edit-apartment-row #edit-apartment-column #edit-apartment-box #edit-apartment-form {
+    padding: 20px;
+}
+
+.dugme {
+    min-width: 150px;
+}
+
+.text {
+    color: white;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    margin-top: -10px;
+}

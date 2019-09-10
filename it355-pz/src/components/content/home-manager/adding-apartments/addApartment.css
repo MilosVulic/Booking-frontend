@@ -1,0 +1,29 @@
+h3 {
+    padding-bottom: 20px;
+}
+
+#add-apartment .container #add-apartment-row #add-apartment-column #add-apartment-box {
+    min-width: 200px;
+    max-height: 950px;
+    border: 1px solid rgb(52, 58, 64);
+    background-color: rgb(52, 58, 64);
+    margin-top: 120px;
+}
+
+#add-apartment .container #add-apartment-row #add-apartment-column #add-apartment-box #add-apartment-form {
+    padding: 20px;
+}
+
+.dugme {
+    min-width: 150px;
+}
+
+.text {
+    color: white;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    margin-top: -10px;
+}

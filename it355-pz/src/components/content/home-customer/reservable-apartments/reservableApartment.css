@@ -1,0 +1,41 @@
+.pocetak {
+    margin-top: 50px;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+.panel-body {
+    margin-top: 70px;
+}
+
+.idtabela {
+    display: none;
+}
+
+.iddata {
+    display: none;
+}
+
+.dugme {
+    margin-top: 8px;
+}
+
+.naslov {
+    margin-top: 80px;
+}
+
+.lista-hotela {
+    margin-top: 90px;
+}
+
+#form {
+    margin-top: 20px;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    margin-top: -10px;
+}

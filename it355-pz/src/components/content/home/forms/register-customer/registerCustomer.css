@@ -1,0 +1,34 @@
+h3 {
+    padding-bottom: 20px;
+}
+
+#register-customer .container #register-customer-row #register-customer-column #register-customer-box {
+    opacity: 0.9;
+    min-width: 200px;
+    max-height: 950px;
+    border: 1px solid rgb(221, 212, 212);
+    background-color: white;
+    margin-top: 120px;
+}
+
+#register-customer .container #register-customer-row #register-customer-column #register-customer-box #register-customer-form {
+    padding: 10px;
+}
+
+.dugme {
+    margin-top: 8px;
+    height: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .dugme {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.error{
+    text-align: center;
+    color: red;
+    margin-top: -10px;
+}
